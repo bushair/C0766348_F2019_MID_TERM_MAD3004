@@ -17,3 +17,15 @@ class Internet:Bill{
         self.gbUsed = gbUsed
         self.billAmount = billAmount
          super.init(billId: billId, billDate: billDate, billType: billType)}
+    
+    
+    override func iDisplay() {
+        print("***************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Provider Name : \(providerName)")
+        print("Data Used : \(gbUsed.gbUsed())")
+        print("Bill Amount : \(billAmount.currencyFormat())")
+    }
+}
