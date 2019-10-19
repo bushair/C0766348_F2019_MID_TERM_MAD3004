@@ -17,6 +17,11 @@ class Vehicleinsurance:Bill{
     var InsProvider:String
     var insStartDate:String
     var insEndDate:String
+    var insType:insType
+    
+    
+    
+    o
     
     
 }
