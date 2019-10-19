@@ -28,10 +28,13 @@ class Mobile:Bill{
     
     
 
-    func validate(mobileNumber: String) throws
+    func validate(mobileNumber: String)
     {
-       
-    }
+        if mobileNumber.count < 10 {
+            throw Error.underlength
+        }
+        
+        print("mobile number should be  10 digit")    }
     
     override func iDisplay()  {
         print("*************************************************************")
