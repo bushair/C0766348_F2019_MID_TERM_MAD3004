@@ -26,8 +26,11 @@ class Bill : IDisplay
     var billType : Types
     var totalBillAmount : Float!
     
-    
-    
+    init(billId : String , billDate : String, billType : Types) {
+        self.billId = billId
+        self.billDate = billDate
+        self.billType = billType
+    }
     
     
 }
