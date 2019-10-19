@@ -8,20 +8,27 @@
 
 import Foundation
 class Vehicleinsurance:Bill{
-    enum insType {
+    enum InsType {
         case home
         case Car
         case Business
         
     }
     var InsProvider:String
-    var insStartDate:String
-    var insEndDate:String
-    var insType:insType
+    var InsStartDate:String
+    var InsEndDate:String
+    var InsType:InsType
+    
+    init(InsProvider:String,InsStartDate:String,InsEndDate:String,Instype:InsType)
+    {
+       self.InsProvider = InsProvider
+        self.InsStartDate = InsStartDate
+        self.InsEndDate = InsEndDate
+        self.InsType = InsType
+        super()
+    }
     
     
-    
-    o
     
     
 }
