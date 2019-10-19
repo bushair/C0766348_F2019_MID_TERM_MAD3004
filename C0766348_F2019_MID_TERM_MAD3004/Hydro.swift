@@ -9,4 +9,6 @@
 import Foundation
 class Hydro:Bill{
     
-}
+    var agencyName:String
+    var unitsConsumed: Float
+    var billAmount : Float}
