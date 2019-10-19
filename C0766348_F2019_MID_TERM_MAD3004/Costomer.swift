@@ -15,5 +15,8 @@ class Customer : IDisplay
     var lastName : String!
     var fullName : String
     var email : String
+    var billDic = Dictionary<String,Bill>()
     
-}
+   
+        
+    }}
