@@ -25,7 +25,7 @@ class Vehicleinsurance:Bill{
         self.InsStartDate = InsStartDate
         self.InsEndDate = InsEndDate
         self.InsType = InsType
-        super()
+         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
     
