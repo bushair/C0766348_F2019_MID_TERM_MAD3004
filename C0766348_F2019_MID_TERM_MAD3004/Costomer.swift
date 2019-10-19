@@ -26,5 +26,8 @@ class Customer : IDisplay
         self.billDic = billDic
         self.fullName = firstName + lastName
     }
+    func iDisplay() {
+        
+    }
     
-    }}
+}
