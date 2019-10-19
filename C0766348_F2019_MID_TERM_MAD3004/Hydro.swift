@@ -18,8 +18,7 @@ class Hydro:Bill{
         self.agencyName=agencyName
         self.unitsConsumed=unitsConsumed
         self.billAmount=billAmount
-      
-        
+        super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
     
