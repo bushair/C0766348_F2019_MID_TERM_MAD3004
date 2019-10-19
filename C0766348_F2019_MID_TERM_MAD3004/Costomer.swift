@@ -17,6 +17,14 @@ class Customer : IDisplay
     var email : String
     var billDic = Dictionary<String,Bill>()
     
-   
-        
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDic : Dictionary<String,Bill>)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDic = billDic
+        self.fullName = firstName + lastName
+    }
+    
     }}
