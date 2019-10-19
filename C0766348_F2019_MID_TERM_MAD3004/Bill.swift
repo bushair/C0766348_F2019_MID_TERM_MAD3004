@@ -8,20 +8,26 @@
 
 import Foundation
 
-class Bill : IDisplay{
-    func iDisplay()
-    {
+class Bill : IDisplay
+{
+    func iDisplay() {
         
     }
-    enum Types{case Internet
-            case Mobile
-           case Hydro
+    
+    
+    
+    var billId : String
+    var billDate :  String
+    enum Types {
+        case Internet
+        case Hydro
+        case Mobile
     }
+    var billType : Types
+    var totalBillAmount : Float!
     
     
-   
     
     
     
 }
-
