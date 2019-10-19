@@ -28,8 +28,10 @@ class Mobile:Bill{
     
     
 
-    
-    
+    func validate(mobileNumber: String) throws
+    {
+       
+    }
     
     override func iDisplay()  {
         print("*************************************************************")

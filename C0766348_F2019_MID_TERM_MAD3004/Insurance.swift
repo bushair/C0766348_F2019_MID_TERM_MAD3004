@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Vehicleinsurance:Bill{
+class Insurance:Bill{
     enum InsType {
         case home
         case Car
@@ -21,11 +21,11 @@ class Vehicleinsurance:Bill{
     
     init(InsProvider:String,InsStartDate:String,InsEndDate:String,Instype:InsType)
     {
-       self.InsProvider = InsProvider
+        self.InsProvider = InsProvider
         self.InsStartDate = InsStartDate
         self.InsEndDate = InsEndDate
         self.InsType = InsType
-         super.init(billId: billId, billDate: billDate, billType: billType)
+        super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
     
