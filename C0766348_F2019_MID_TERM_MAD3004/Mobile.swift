@@ -10,5 +10,11 @@ import Foundation
 
 class Mobile:Bill{
     
-    var 
+    var manufacturerName:String
+    var planName:String
+    var mobileNumber:String
+    var internetUsed:Float
+    var minutesUsed:Int
+    var billAmount : Float
+   
 }
