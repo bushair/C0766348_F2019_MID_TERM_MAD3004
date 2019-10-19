@@ -16,5 +16,4 @@ var totalBill : Float
 
 var inter = Internet(providerName: "telus", gbUsed: 35.8, billId: "I001", billDate: result, billAmount: 84.7, billType: Bill.Types.Internet)
 
-
-
+var mob = Mobile(manufacturerName: "Apple", planName: "Big Gig", mobileNumber: "123456789", internetUsed: 6.7, minutesUsed: 476, billAmount: 78.6, billId: "G012", billType:Bill.Types.Mobile, billDate: result)
