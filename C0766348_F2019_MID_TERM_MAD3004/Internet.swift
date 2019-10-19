@@ -16,4 +16,4 @@ class Internet:Bill{
         self.providerName = providerName
         self.gbUsed = gbUsed
         self.billAmount = billAmount
-}
+         super.init(billId: billId, billDate: billDate, billType: billType)}
