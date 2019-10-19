@@ -7,7 +7,13 @@
 //
 
 import Foundation
-class internet:Bill{
+class Internet:Bill{
     
-    
+    var providerName : String
+    var gbUsed : Float
+    var billAmount : Float
+    init(providerName : String, gbUsed : Float, billId : String, billDate : String,billAmount: Float, billType : Bill.Types) {
+        self.providerName = providerName
+        self.gbUsed = gbUsed
+        self.billAmount = billAmount
 }
