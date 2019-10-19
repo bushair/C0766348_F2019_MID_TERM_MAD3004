@@ -13,7 +13,14 @@ class Bill : IDisplay{
     {
         
     }
-    enum
+    enum Types{case Internet
+            case Mobile
+           case Hydro
+    }
+    
+    
+   
+    
     
     
 }
