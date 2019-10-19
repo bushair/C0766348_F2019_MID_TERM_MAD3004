@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Customer : IDisplay
+class Customer : iDisplay
 {
     
     var customerId : String
@@ -30,7 +30,9 @@ class Customer : IDisplay
         print("***************************************")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
-        
-    }
+        for i in billDic.values
+        {
+            i.iDisplay()
+        }    }
     
 }
