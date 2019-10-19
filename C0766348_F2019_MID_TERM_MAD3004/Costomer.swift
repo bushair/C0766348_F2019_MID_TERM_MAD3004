@@ -27,6 +27,9 @@ class Customer : IDisplay
         self.fullName = firstName + lastName
     }
     func iDisplay() {
+        print("***************************************")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
         
     }
     
