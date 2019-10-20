@@ -28,7 +28,16 @@ class Insurance:Bill{
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
-    
-    
+    override func iDisplay()  {
+        print("*******************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("provider:  \(InsProvider)")
+        print("Insurance Type: \(InsType)")
+         print("Insurance Start date: \(InsStartDate)")
+         print("Insurance End date: \(InsEndDate)")
+        
+    }
     
 }

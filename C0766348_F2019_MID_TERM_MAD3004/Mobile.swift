@@ -28,13 +28,7 @@ class Mobile:Bill{
     
     
 
-    func validate(mobileNumber: String)
-    {
-        if mobileNumber.count < 10 {
-            throw Error.underlength
-        }
-        
-        print("mobile number should be  10 digit")    }
+ 
     
     override func iDisplay()  {
         print("*******************************")
@@ -44,9 +38,9 @@ class Mobile:Bill{
         print("Manufacturer Name : \(String(describing: manufacturerName))")
         print("Plan Name : \(String(describing: planName))")
         print("Mobile number : \(String(describing: mobileNumber))")
-        print("Minutes used : \(String(describing: minutesUsed.minuteFormat()))")
-        print("Bill Amount : \(billAmount.currencyFormat())")
-        print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
+        print("Minutes used : \( minutesUsed)")
+        print("Bill Amount : \(billAmount)")
+        print("Internet Used : \(String(describing: internetUsed))")
         
     }
 }

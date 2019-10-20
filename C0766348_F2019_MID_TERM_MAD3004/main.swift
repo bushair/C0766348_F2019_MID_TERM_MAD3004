@@ -20,3 +20,22 @@ var mob = Mobile(manufacturerName: "Apple", planName: "Big Gig", mobileNumber: "
 
 var hydr = Hydro(agencyName: "Go green", unitsConsumed: 56.7, billAmount: 150, billId: "H101", billType: Bill.Types.Hydro, billDate: result)
 
+var custmr = Customer(customerId: "G013", firstName: "Bushair", lastName: "Konnamadathil", email: "@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
+
+custDictionary.updateValue(custmr, forKey: custmr.customerId)
+custDictionary.updateValue(custmr1, forKey: custmr1.customerId)
+
+
+for i in custDictionary.values{
+    i.iDisplay()
+    
+}
+
+for temp in custDictionary.values{
+    
+    for i1 in temp.billDictionary.values
+    {
+        
+    }
+}
+
